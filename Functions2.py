@@ -47,12 +47,10 @@
 # penultimate("Hi My Name Is Ethan")
 
 # Number Extract
-def num_extractor(sentence):
-    numbers = ""
-    for i in sentence:
-        if i.isdigit():
-            numbers = numbers + i
-    print(numbers)
-
-
-num_extractor("I am 16 years old and will be 17 in 2022")
+# def num_extractor(sentence):
+#     numbers = ""
+#     for i in sentence:
+#         if i.isdigit():
+#             numbers = numbers + i
+#     print(numbers)
+# num_extractor("I am 16 years old and will be 17 in 2022")
