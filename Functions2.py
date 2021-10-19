@@ -54,3 +54,6 @@
 #             numbers = numbers + i
 #     print(numbers)
 # num_extractor("I am 16 years old and will be 17 in 2022")
+
+# Start With Counter
+def startswith_count(sentence, letter):
