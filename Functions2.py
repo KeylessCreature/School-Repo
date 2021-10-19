@@ -39,9 +39,9 @@
 # palindrome("racecar")
 
 #Penultimate
-def penultimate(sentence):
-    words = sentence.split(" ")
-    indcount = len(words)
-    indcount -= 2
-    print(words[indcount])
-penultimate("Hi My Name Is Ethan")
+# def penultimate(sentence):
+#     words = sentence.split(" ")
+#     indcount = len(words)
+#     indcount -= 2
+#     print(words[indcount])
+# penultimate("Hi My Name Is Ethan")
