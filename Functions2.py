@@ -57,3 +57,5 @@
 
 # Start With Counter
 def startswith_count(sentence, letter):
+    sentence.split(" ")
+    for i in range(len(sentence)):
