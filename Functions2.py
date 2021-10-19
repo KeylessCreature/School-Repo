@@ -16,7 +16,7 @@
 #     print(word2)
 # reverse("Hello")
 
-#Check Palidrome
+# Check Palidrome
 # def palindrome(word):
 #     wordlist = []
 #     a = 1
@@ -38,10 +38,21 @@
 #         print("No")
 # palindrome("racecar")
 
-#Penultimate
+# Penultimate
 # def penultimate(sentence):
 #     words = sentence.split(" ")
 #     indcount = len(words)
 #     indcount -= 2
 #     print(words[indcount])
 # penultimate("Hi My Name Is Ethan")
+
+# Number Extract
+def num_extractor(sentence):
+    numbers = ""
+    for i in sentence:
+        if i.isdigit():
+            numbers = numbers + i
+    print(numbers)
+
+
+num_extractor("I am 16 years old and will be 17 in 2022")
