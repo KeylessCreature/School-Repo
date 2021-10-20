@@ -87,6 +87,7 @@
 #     print(count)
 # findall("Hello My Name Is Ethan", "m")
 
+#Fix_Cap
 # def fix_cap(paragraph):
 #     paragraph = paragraph.replace(" i ", " I ")
 #     paragraph = paragraph[0].upper() + paragraph[1:]
