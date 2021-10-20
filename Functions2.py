@@ -87,13 +87,13 @@
 #     print(count)
 # findall("Hello My Name Is Ethan", "m")
 
-def fix_cap(paragraph):
-    paragraph = paragraph.replace(" i ", " I ")
-    paragraph = paragraph[0].upper() + paragraph[1:]
-    sentences = paragraph.split(".")
-    newpar = ""
-    for sentence in sentences:
-        sentence = sentence[0].upper() +sentence[1:]
-        newpar +=sentence+"."
-    return newpar
-print(fix_cap("hello, i want some stuff. i need some pizza"))
+# def fix_cap(paragraph):
+#     paragraph = paragraph.replace(" i ", " I ")
+#     paragraph = paragraph[0].upper() + paragraph[1:]
+#     sentences = paragraph.split(".")
+#     newpar = ""
+#     for sentence in sentences:
+#         sentence = sentence[0].upper() +sentence[1:]
+#         newpar +=sentence+"."
+#     return newpar
+# print(fix_cap("hello, i want some stuff. i need some pizza"))
